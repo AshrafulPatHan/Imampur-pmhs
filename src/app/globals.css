@@ -7,9 +7,6 @@
   --foreground: #171717;
 }
 
-body {
-
-}
 
 @layer utilities {
   .text-balance {

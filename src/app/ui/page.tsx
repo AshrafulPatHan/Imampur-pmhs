@@ -1,5 +1,6 @@
 import Image from "next/image";
 import arrow from "@/assets/icon/arrow.svg";
+import image from "@/assets/image/student.webp";
 
 
 export default function UI() {
@@ -74,6 +75,73 @@ export default function UI() {
                     </button>
                     <button className="font-bold underline text-xl underline-offset-[8px]  decoration-[2.5px]  decoration-amber-600 ">clike the button</button>
                 </div>
+            </div>
+
+            <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div className="relative w-[400px] h-[400px]  rounded-xl ">
+                    <div>
+                        <Image src={image} alt="photo" className="rounded-xl h-[400px] object-cover" />
+                    </div>
+                    <div className="absolute bottom-0 p-4">
+                        <p className="font-bold ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
+                        </p>
+                    </div>
+                </div>
+                <div className="relative w-[400px] h-[400px]  rounded-xl shadow-lg shadow-[#0f0f0f50] border border-[#271a1a2a] ">
+                    <div>
+                        <Image src={image} alt="photo" className="rounded-xl h-[400px] object-cover" />
+                    </div>
+                    <div className="absolute bottom-0  p-4">
+                        <p className="font-bold ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
+                        </p>
+                    </div>
+                </div>
+                <div className="group relative w-[400px] h-[400px] rounded-2xl overflow-hidden shadow-lg shadow-black/30 border border-white/10 transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
+                    {/* Image */}
+                    <Image
+                        src={image}
+                        alt="photo"
+                        className="h-full w-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-110"
+                    />
+
+                    {/* Overlay Gradient */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90"></div>
+
+                    {/* Text Content */}
+                    <div className="absolute bottom-0 p-5 text-white">
+                        <p className="font-semibold text-lg leading-snug">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
+                        </p>
+                        <button className="mt-3 px-4 py-2 rounded-lg bg-amber-500 text-sm font-medium shadow-md hover:bg-amber-600 transition-all duration-300">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+
+                <div className="group relative w-[400px] h-[400px] rounded-2xl overflow-hidden shadow-lg shadow-black/30 border border-black/10 transition-all duration-500 hover:shadow-2xl hover:scale-[1.02]">
+                    {/* Image */}
+                    <Image
+                        src={image}
+                        alt="photo"
+                        className="h-full w-full object-cover rounded-2xl transition-transform duration-500 group-hover:scale-110"
+                    />
+
+                    {/* Overlay Gradient */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90"></div>
+
+                    {/* Text Content */}
+                    <div className="absolute bottom-0 p-5 text-white">
+                        <p className="font-semibold text-lg leading-snug">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, at.
+                        </p>
+                        <button className="mt-3 px-4 py-2 rounded-lg border-2 border-amber-500 text-sm font-medium shadow-md hover:bg-amber-500 transition-all duration-300">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+
             </div>
 
             <div className="mb-20"></div>

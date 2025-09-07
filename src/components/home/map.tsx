@@ -2,6 +2,8 @@
 
 export default function Map() {
   return (
-    <div>Hello world</div>
+    <div>
+      <p>add google mape</p>
+    </div>
   );
 }

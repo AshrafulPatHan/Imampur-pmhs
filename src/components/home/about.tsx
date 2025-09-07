@@ -1,4 +1,5 @@
 import Image from "next/image";
+import School_image from "@/assets/image/school-2.webp";
 
 
 export default function About() {
@@ -6,7 +7,7 @@ export default function About() {
         <div>
             <div>
                 <div>
-                    <Image src="" alt="" />
+                    <Image src={School_image} alt="ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়" />
                 </div>
                 <div>
                     <div>

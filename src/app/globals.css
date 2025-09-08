@@ -66,6 +66,13 @@
   .text-header{
     @apply text-lg md:text-3xl font-semibold ;
   }
+  /* -- flex box */
+  .flex-column{
+    @apply flex flex-col items-center ;
+  }
+  .flex-center{
+    @apply flex flex-col items-center justify-center ;
+  }
 }
 
 .svg-white {

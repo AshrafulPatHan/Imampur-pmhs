@@ -1,4 +1,4 @@
-import school from "@/assets/image/school.webp"
+import school from "@/assets/image/school-clear.png"
 import Image from "next/image"
 
 export default function Hero() {

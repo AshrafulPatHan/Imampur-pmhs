@@ -12,7 +12,7 @@ import Navbar from "@/components/navigation/nabvar";
 
 export default function Home() {
   return (
-    <div>
+    <div className=" max-w-screen overflow-x-hidden">
       <Navbar />
       <div>
         <Hero/>

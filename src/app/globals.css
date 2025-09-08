@@ -67,11 +67,18 @@
     @apply text-lg md:text-3xl font-semibold ;
   }
   /* -- flex box */
-  .flex-column{
+  .flex-c-center{
     @apply flex flex-col items-center ;
+  }
+  .flex-column{
+    @apply flex flex-col ;
   }
   .flex-center{
     @apply flex flex-col items-center justify-center ;
+  }
+  /* set the max whide */
+  .max-width{
+    @apply  max-w-[1170px] mx-auto  px-4 sm:px-8 lg:px-0 ;
   }
 }
 

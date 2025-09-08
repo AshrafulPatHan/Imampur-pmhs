@@ -3,7 +3,7 @@
 export default function Teacher() {
     return(
         <div>
-            Teacher
+            <p>copy form kuripara high school</p>
         </div>
     )
 }

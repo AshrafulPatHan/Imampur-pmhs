@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* --primary-bg: #F59E0B; */
+  /* --sec-bg: #2563EB; */
+  --primary-bg: #F59E0B;
+  --sec-bg: #2563EB;
+  --margin-primary: 80px;
 }
 
 
@@ -12,4 +17,31 @@
   .text-balance {
     text-wrap: balance;
   }
+  .mt-primary{
+    @apply mt-[var(--margin-primary)] ;
+  }
+  .mb-primary{
+    @apply mb-[var(--margin-primary)] ;
+  }
+  .pt-primary{
+    @apply pt-[var(--margin-primary)] ;
+  }
+  .pb-primary{
+    @apply pb-[var(--margin-primary)] ;
+  }
+  .bg-primary{
+    @apply bg-amber-500 ;
+  }
+  .bg-sec{
+    @apply bg-blue-600 ;
+  }
+  .text-header{
+    @apply text-lg md:text-3xl font-semibold ;
+  }
+}
+
+.svg-white {
+  /* filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg); # for blue color */
+  filter: invert(1);
+
 }

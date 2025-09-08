@@ -5,7 +5,7 @@ export default function Hero() {
     return(
         <div>
             <div className="relative">
-                <div className="w-100% bg-sec">
+                <div className="w-[100%] bg-sec">
                     <Image src={school} alt="ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়" className="w-[100vw] h-[49vw] lg:h-[30vw] object-cover  " />
                 </div>
                 <div className="absolute top-2 left-2">

@@ -9,7 +9,7 @@ export default function Navbar() {
    return(
    <div className=" sticky top-0 z-50">
       {/* desktop */}
-      <div className="bg-[#fcf7f7] shadow-2xl py-2 px-2 lg:px-0 hidden md:flex md:flex-col max-w-screen overflow-hidden ">
+      <div className=" bg-[#ffffff17] backdrop-blur-lg shadow-2xl py-2 px-2 lg:px-0 hidden md:flex md:flex-col max-w-screen overflow-hidden ">
          <div className="flex items-center justify-center gap-5 lg:gap-[200px] ">
             <div  className="flex flex-row items-center gap-4">
                <Link href='/' className=" text-lg lg:text-xl font-bold ">HOME</Link>

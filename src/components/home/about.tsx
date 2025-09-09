@@ -4,7 +4,7 @@ import School_image from "@/assets/image/imner-clear.webp";
 
 export default function About() {
     return (
-        <div className="max-width flex flex-col items-center mt-primary mx-auto">
+        <div className="max-width flex flex-col items-center mt-primary mx-auto ">
             <div className="flex flex-col lg:flex-row-reverse gap-8">
                 {/* Image Section */}
                 <div className="w-full lg:w-[65%] xl:w-[600px] rounded-2xl overflow-hidden group">
@@ -17,9 +17,11 @@ export default function About() {
 
                 {/* Text Section */}
                 <div className="w-full lg:w-[55%] space-y-4">
-                    <h2 className="text-2xl font-bold">
-                        ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়
-                    </h2>
+                    <div className="bg-gradient-to-bl from-amber-400 to-blue-600 bg-clip-text text-transparent ">
+                        <h1 className="text-header">
+                            ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়
+                        </h1>
+                    </div>
                     <p className="text-gray-700 leading-relaxed">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, aut.
                         Quis, libero. Fugiat, quod praesentium beatae itaque officia nemo cupiditate quidem

@@ -8,9 +8,11 @@ export default function Gallery() {
     return (
         <div className="max-width flex flex-col items-center mt-primary mx-auto">
             <div>
-                <h3 className="text-header text-center mb-low">
-                    ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়
-                </h3>
+                <div className="bg-gradient-to-bl from-amber-400 to-blue-600 bg-clip-text text-transparent mb-10 ">
+                    <h1 className="text-header text-center">
+                        ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়
+                    </h1>
+                </div>
                 <div className="flex flex-col lg:flex-row gap-4">
                     {/* big image */}
                     <div className="relative w-full lg:w-[65%] xl:w-[530px] h-auto lg:h-[510px] rounded-2xl overflow-hidden group">
@@ -31,7 +33,7 @@ export default function Gallery() {
                     <div className="flex flex-col gap-4">
                         <div className="flex flex-col lg:flex-row gap-4">
                             {/* book */}
-                            <div className="relative w-[300px] h-[248px] rounded-2xl overflow-hidden group">
+                            <div className="relative lg:w-[300px] lg:h-[248px] rounded-2xl overflow-hidden group">
                                 <Image
                                     src={book}
                                     alt="ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়"
@@ -45,7 +47,7 @@ export default function Gallery() {
                             </div>
 
                             {/* miner */}
-                            <div className="relative w-[300px] h-[248px] rounded-2xl overflow-hidden group">
+                            <div className="relative lg:w-[300px] lg:h-[248px] rounded-2xl overflow-hidden group">
                                 <Image
                                     src={miner}
                                     alt="ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়"
@@ -60,7 +62,7 @@ export default function Gallery() {
                         </div>
 
                         {/* bottom image */}
-                        <div className="relative w-[613px] h-[248px] rounded-2xl overflow-hidden group">
+                        <div className="relative lg:w-[613px] lg:h-[248px] rounded-2xl overflow-hidden group">
                             <Image
                                 src={min}
                                 alt="Imampur Palli Mangal High School"

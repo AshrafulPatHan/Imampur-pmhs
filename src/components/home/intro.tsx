@@ -16,9 +16,11 @@ export default function Intro() {
 
                 {/* Text Section */}
                 <div className="w-full lg:w-[55%] space-y-4">
-                    <h2 className="text-2xl font-bold">
-                        ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়
-                    </h2>
+                    <div className="bg-gradient-to-bl from-amber-400 to-blue-600 bg-clip-text text-transparent ">
+                        <h1 className="text-header">
+                            ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়
+                        </h1>
+                    </div>
                     <p className="text-gray-700 leading-relaxed">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, aut.
                         Quis, libero. Fugiat, quod praesentium beatae itaque officia nemo cupiditate quidem

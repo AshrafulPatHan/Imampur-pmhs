@@ -30,7 +30,7 @@ export default function Navbar() {
          <div  className="flex flex-row items-center gap-3">
             <Image src={Logo} alt="Logo" width={30} />
             {/* <p className="text-xl font-bold  ">Kuripara High School</p> */}
-            <p className="text-xl font-bold  ">Imampur P.M. High School</p>
+            <p className="text-sm font-bold  ">Imampur P.M. High School</p>
          </div>
             <Dropdown_Nav/>
       </div>

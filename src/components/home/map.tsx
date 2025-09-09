@@ -10,21 +10,22 @@ export default function Map() {
       </div>
       <p className="text-center mb-8 font-bold text-sm md:text-lg">Reach Out, Connect, and Start Your Journey with Us Today!</p>
 
-      <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-28 mb-low">
+      <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-8 md:gap-28 mb-low">
         <div className="flex-c-center">
           <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
           <h3 className="text-2xl font-bold">Phone</h3>
-          <p className="">+8801-000-000</p>
+          <p className="">+8801309103904</p>
         </div>
         <div className="flex-c-center">
           <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
           <h3 className="text-2xl font-bold">Email</h3>
-          <p className="">domain@gmail.com</p>
+          <p className="">imampurpm@gmail.com</p>
         </div>
         <div className="flex-c-center">
           <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
           <h3 className="text-2xl font-bold">Location</h3>
-          <p className="">bondor narayanganj</p>
+          <p className="">মতলব উত্তর, চাঁদপুর</p>
+          <p>কালিপুর বাজার</p>
         </div>
       </div>
 

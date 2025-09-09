@@ -1,26 +1,36 @@
 import Image from "next/image";
 import School_image from "@/assets/image/school-2.webp";
 
-
 export default function Intro() {
-    return(
-        <div>
-            <div>
-                <div>
-                    <Image src={School_image} alt="ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়" />
+    return (
+        <div className="max-width flex flex-col items-center mt-primary mx-auto">
+            <div className="flex flex-col lg:flex-row gap-8">
+                {/* Image Section */}
+                <div className="w-full lg:w-[65%] xl:w-[600px] rounded-2xl overflow-hidden group">
+                    <Image
+                        src={School_image}
+                        alt="ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়"
+                        className="object-cover rounded-2xl w-full h-full transition-transform duration-300 group-hover:scale-105"
+                    />
                 </div>
-                <div>
-                    <div>
-                        <h2>ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়</h2>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, aut. Quis, libero. Fugiat, quod praesentium beatae itaque officia nemo cupiditate quidem excepturi sapiente nostrum minima numquam perspiciatis facere corrupti inventore assumenda illum doloribus iure ipsam! Soluta natus ut excepturi aperiam magni modi cum quae, velit deleniti quod ratione ullam sed!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, aut. Quis, libero. Fugiat, quod praesentium beatae itaque officia nemo cupiditate quidem excepturi sapiente nostrum minima numquam perspiciatis facere corrupti inventore assumenda illum doloribus iure ipsam! Soluta natus ut excepturi aperiam magni modi cum quae, velit deleniti quod ratione ullam sed!
-                        </p>
-                    </div>
+
+                {/* Text Section */}
+                <div className="w-full lg:w-[55%] space-y-4">
+                    <h2 className="text-2xl font-bold">
+                        ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়
+                    </h2>
+                    <p className="text-gray-700 leading-relaxed">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, aut.
+                        Quis, libero. Fugiat, quod praesentium beatae itaque officia nemo cupiditate quidem
+                        excepturi sapiente nostrum minima numquam perspiciatis facere corrupti inventore
+                        assumenda illum doloribus iure ipsam!
+                    </p>
+                    <p className="text-gray-700 leading-relaxed">
+                        Soluta natus ut excepturi aperiam magni modi cum quae, velit deleniti quod ratione
+                        ullam sed! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
                 </div>
             </div>
         </div>
-    )
+    );
 }

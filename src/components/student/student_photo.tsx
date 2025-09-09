@@ -43,7 +43,7 @@ export default function Student_Photo() {
                                 />
                                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 translate-y-5 group-hover:translate-y-0 transition-all duration-500">
                                     <p className="text-white text-lg font-semibold">
-                                        লাইব্রেরি
+                                        বই বিতরন
                                     </p>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@ export default function Student_Photo() {
                                 />
                                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 translate-y-5 group-hover:translate-y-0 transition-all duration-500">
                                     <p className="text-white text-lg font-semibold">
-                                        খেলার মাঠ
+                                        শহিদ মিনার
                                     </p>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ export default function Student_Photo() {
                                 />
                                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 translate-y-5 group-hover:translate-y-0 transition-all duration-500">
                                     <p className="text-white text-lg font-semibold">
-                                        লাইব্রেরি
+                                        বই বিতরন
                                     </p>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@ export default function Student_Photo() {
                                 />
                                 <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 translate-y-5 group-hover:translate-y-0 transition-all duration-500">
                                     <p className="text-white text-lg font-semibold">
-                                        খেলার মাঠ
+                                        শহিদ মিনার
                                     </p>
                                 </div>
                             </div>

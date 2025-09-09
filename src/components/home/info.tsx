@@ -39,7 +39,7 @@ export default function Info() {
             </div>
             <div className="flex flex-col items-center ">
                <div className="w-10 sm:w-14 h-10 sm:h-14 bg-[#ffffff1e] backdrop-blur-[2.2px] border border-[#ffffff1c] rounded-full flex-center ">
-                  <p>🥳</p>
+                  <p>⭐</p>
                </div>
                <p className="text-xs sm:text-sm lg:text-xl font-bold">5</p>
                <h3 className="text-sm sm:text-md lg:text-xl font-bold">Rating</h3>

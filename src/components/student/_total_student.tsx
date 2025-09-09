@@ -4,22 +4,22 @@ import React from "react";
 
 export default function Total_student() {
   const tableData = [
-    { no: "1.", className: "ষষ্ঠ", boy: 95, girl: 100, total: 195, comment: "" },
-    { no: "2.", className: "সপ্তম", boy: 100, girl: 102, total: 202, comment: "" },
-    { no: "3.", className: "অষ্টম", boy: 85, girl: 100, total: 185, comment: "" },
+    { no: "1.", className: "ষষ্ঠ", boy: 65, girl: 59, total: 115, comment: "" },
+    { no: "2.", className: "সপ্তম", boy: 74, girl: 84, total: 158, comment: "" },
+    { no: "3.", className: "অষ্টম", boy: 63, girl: 70, total: 133, comment: "" },
     {
       no: "4.", rowSpan: 3, groups: [
-        { className: "নবম বিজ্ঞান", boy: 10, girl: 10, total: 20, comment: "" },
-        { className: "নবম ব্যবসা শিক্ষা", boy: 35, girl: 30, total: 60, comment: "" },
-        { className: "নবম মানবিক", boy: 35, girl: 45, total: 80, comment: "" }
+        { className: "নবম বিজ্ঞান", boy: 12, girl: 16, total: 28, comment: "" },
+        { className: "নবম ব্যবসা শিক্ষা", boy: 23, girl: 21, total: 52, comment: "" },
+        { className: "নবম মানবিক", boy: 14, girl: 22, total: 36, comment: "" }
       ]
     },
     {
       no: "5", rowSpan: 4, groups: [
-        { className: "দশম বিজ্ঞান", boy: 12, girl: 8, total: 20, comment: "" },
-        { className: "দশম ব্যবসা শিক্ষা", boy: 45, girl: 35, total: 70, comment: "" },
-        { className: "দশম মানবিক", boy: 50, girl: 35, total: 85, comment: "" },
-        { className: "সর্বমোট শিক্ষার্থী", boy: 467, girl: 463, total: 930, comment: "" }
+        { className: "দশম বিজ্ঞান", boy: 25, girl: 23, total: 48, comment: "" },
+        { className: "দশম ব্যবসা শিক্ষা", boy: 38, girl: 21, total: 59, comment: "" },
+        { className: "দশম মানবিক", boy: 6, girl: 26, total: 32, comment: "" },
+        { className: "সর্বমোট শিক্ষার্থী", boy: 319, girl: 342, total: 661, comment: "" }
       ]
     }
   ];
@@ -34,26 +34,33 @@ export default function Total_student() {
           <div className="flex flex-row items-center justify-center gap-28 mt-primary mb-low">
             <div className="flex-c-center">
               <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
-              <h3 className="text-2xl font-bold">Phone</h3>
-              <p className="">+8801-000-000</p>
+              <h3 className="text-xl font-bold">ছাত্র</h3>
+              <p className="text-lg">৩১৯</p>
             </div>
+
             <div className="flex-c-center">
               <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
-              <h3 className="text-2xl font-bold">Email</h3>
-              <p className="">domain@gmail.com</p>
+              <h3 className="text-xl font-bold">মোট ছাত্র-ছাত্রী</h3>
+              <p className="text-lg ">৬৬১জন</p>
             </div>
+
             <div className="flex-c-center">
               <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
-              <h3 className="text-2xl font-bold">Location</h3>
-              <p className="">bondor narayanganj</p>
+              <h3 className="text-xl font-bold">ছাত্রী</h3>
+              <p className="text-lg">৩৪২</p>
             </div>
           </div>
         </section>
         {/* section 2 */}
         <section>
+          <div className="bg-gradient-to-bl from-amber-400 to-blue-600 bg-clip-text text-transparent pb-10 ">
+            <h1 className="text-header text-center">
+              নিন্মরুপ শিক্ষার্থী অধ্যয়ণরত রয়েছে
+            </h1>
+          </div>
           <div className="w-[100vw] md:w-full overflow-x-auto md:overflow-visible mb-high ">
             <div className="-mx-4 px-4 md:mx-0 md:px-0">
-              <table className="border-collapse w-[623px] sm:w-[70vw] lg:w-[60vw] xl:w-[50vw] mx-auto shadow-lg rounded-lg overflow-hidden" cellPadding={7}>
+              <table className="border-collapse border w-[623px] sm:w-[70vw] lg:w-[60vw] xl:w-[50vw] mx-auto shadow-2xl rounded-2xl overflow-hidden" cellPadding={7}>
                 <thead>
                   <tr className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-400 text-white">
                     <th className="border border-gray-200 px-4 py-2 text-center text-[16px]">ক্রম</th>

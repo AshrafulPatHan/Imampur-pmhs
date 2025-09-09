@@ -4,17 +4,20 @@ export default function Map() {
   return (
     <div className="mt-high">
       <h2 className="text-header text-center mb-4">ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়</h2>
-      <p className="text-center mb-low font-bold text-lg">Reach Out, Connect, and Start Your Journey with Us Today!</p>
-      <div className="flex flex-row items-center justify-center gap-28">
+      <p className="text-center mb-8 font-bold text-lg">Reach Out, Connect, and Start Your Journey with Us Today!</p>
+      <div className="flex flex-row items-center justify-center gap-28 mb-low">
         <div className="flex-c-center">
+          <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
           <h3 className="text-2xl font-bold">Phone</h3>
           <p className="">+8801-000-000</p>
         </div>
         <div className="flex-c-center">
+          <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
           <h3 className="text-2xl font-bold">Email</h3>
           <p className="">domain@gmail.com</p>
         </div>
         <div className="flex-c-center">
+          <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
           <h3 className="text-2xl font-bold">Location</h3>
           <p className="">bondor narayanganj</p>
         </div>

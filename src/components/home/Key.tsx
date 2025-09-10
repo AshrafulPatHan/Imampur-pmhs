@@ -1,7 +1,10 @@
 "use client";
 
-import logo  from "@/assets/icon/logo.png";
 import Image from "next/image";
+import email  from "@/assets/icon/mail.svg";
+import Location  from "@/assets/icon/map-pin.svg";
+import phone  from "@/assets/icon/phone.svg";
+import people  from "@/assets/icon/people.svg";
 
 
 
@@ -14,10 +17,10 @@ export default function KeyInfo() {
         { label: "মোট ছাত্র-ছাত্রী", value: "৬৬১" }// --
     ];
     const numbers = [
-        { label: "যোগাযোগের ঠিকানা", value: "ডাকঘর: কালিপুর বাজার, উপজেলা: মতলব উত্তর, জেলা: চাঁদপুর ।", icon: <Image src={logo} alt="icon" className="w-4 h-4 " /> },
-        { label: "মোবাইল নম্বর", value: "০১৩০৯১০৩৯০৪", icon: <Image src={logo} alt="icon" className="w-4 h-4 " /> },
-        { label: "প্রতিষ্ঠানের ইমেল নাম্বারঃ", value: "imampurpm@gmail.com", icon: <Image src={logo} alt="icon" className="w-4 h-4" /> },
-        { label: "শিক্ষক ও কর্মচারী", value: "শিক্ষক: ১৪জন / কর্মচারী: ০৫জন", icon: <Image src={logo} alt="icon" className="w-4 h-4 text-purple-500" /> },
+        { label: "যোগাযোগের ঠিকানা", value: "ডাকঘর: কালিপুর বাজার, উপজেলা: মতলব উত্তর, জেলা: চাঁদপুর ।", icon: <Image src={Location} alt="icon" className="w-5 h-5 " /> },
+        { label: "মোবাইল নম্বর", value: "০১৩০৯১০৩৯০৪", icon: <Image src={phone} alt="icon" className="w-5 h-5 " /> },
+        { label: "প্রতিষ্ঠানের ইমেল নাম্বারঃ", value: "imampurpm@gmail.com", icon: <Image src={email} alt="icon" className="w-5 h-5" /> },
+        { label: "শিক্ষক ও কর্মচারী", value: "শিক্ষক: ১৪জন / কর্মচারী: ০৫জন", icon: <Image src={people} alt="icon" className="w-5 h-5 text-purple-500" /> },
     ];
 
   return (

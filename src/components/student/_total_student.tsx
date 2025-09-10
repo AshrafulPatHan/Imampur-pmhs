@@ -1,5 +1,8 @@
+import Image from "next/image";
 import React from "react";
-
+import studentIcon  from "@/assets/icon/student.svg";
+import boyI  from "@/assets/icon/mal.svg";
+import GirlI  from "@/assets/icon/femal.svg";
 
 
 export default function Total_student() {
@@ -33,19 +36,19 @@ export default function Total_student() {
           {/* total student */}
           <div className="flex flex-row items-center justify-center gap-28 mt-primary mb-low">
             <div className="flex-c-center">
-              <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
+              <div className="w-20 h-20 rounded-full bg-primary mb-2 flex-center"><Image src={boyI} alt="icon" className="w-6 " /></div>
               <h3 className="text-xl font-bold">ছাত্র</h3>
               <p className="text-lg">৩১৯</p>
             </div>
 
             <div className="flex-c-center">
-              <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
+              <div className="w-20 h-20 rounded-full bg-primary mb-2 flex-center"><Image src={studentIcon} alt="icon" className="w-6 " /></div>
               <h3 className="text-xl font-bold">মোট ছাত্র-ছাত্রী</h3>
               <p className="text-lg ">৬৬১জন</p>
             </div>
 
             <div className="flex-c-center">
-              <div className="w-20 h-20 rounded-full bg-primary mb-2"></div>
+              <div className="w-20 h-20 rounded-full bg-primary mb-2 flex-center"><Image src={GirlI} alt="icon" className="w-6 " /></div>
               <h3 className="text-xl font-bold">ছাত্রী</h3>
               <p className="text-lg">৩৪২</p>
             </div>

@@ -14,7 +14,7 @@ export default function AboutPage() {
   return (
     <div>
       <Navbar />
-      <div className="relative">
+      <div className="relative max-w-screen overflow-x-hidden">
         <div className="w-[100%]">
           <Image src={school} alt="ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়" className="w-[100vw] h-[49vw] lg:h-[20vw] object-cover  " />
         </div>
@@ -31,20 +31,18 @@ export default function AboutPage() {
         <div>
           {/* section 1 */}
           <section className="mt-low">
-            <Intro_Det/>
+            <Intro_Det />
           </section>
           {/* section 2 */}
           <section className="mt-primary">
-            <About_data/>
+            <About_data />
           </section>
           {/* section 3 */}
           <section className="mt-primary">
-            <h3 className="text-header text-center">libary</h3>
             <Libary />
           </section>
           {/* section 4 */}
           <section className="mt-primary">
-            <h3 className="text-header text-center">science labe</h3>
             <Sciencelab />
           </section>
         </div>

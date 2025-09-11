@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   keywords: [
     "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়",
     "Imampur Palli Mangal High School",
+    "Officeal website of Imampur Palli Mangal High School",
+    "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয় ওয়েবসাইট ",
+    "অফিসিয়াল ওয়েবসাইট - ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়",
     "IPMHS",
     "কালিপুর বাজার স্কুল",
     "মতলব উত্তর স্কুল",

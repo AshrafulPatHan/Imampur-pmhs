@@ -64,7 +64,7 @@
   }
   /* -- text styling */
   .text-header{
-    @apply text-lg md:text-3xl font-semibold ;
+    @apply text-xl md:text-3xl font-semibold ;
   }
   /* -- flex box */
   .flex-c-center{
@@ -78,7 +78,7 @@
   }
   /* set the max whide */
   .max-width{
-    @apply  max-w-[1170px] mx-auto  px-4 sm:px-8 lg:px-0 ;
+    @apply  max-w-[1170px] mx-auto  px-4 sm:px-8 xl:px-0 ;
   }
 }
 

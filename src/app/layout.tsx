@@ -33,11 +33,14 @@ export const metadata: Metadata = {
     "মতলব উত্তর স্কুল",
     "চাঁদপুর স্কুল",
     "চাঁদপুরের শ্রেষ্ঠ স্কুল",
-    "বাংলাদেশ উচ্চ বিদ্যালয়",
-    "স্কুল ভর্তি তথ্য",
-    "স্কুল ফলাফল",
+    "চাঁদপুরের উচ্চ বিদ্যালয়",
   ],
-  authors: [{ name: "Imampur Palli Mangal High School" }],
+  authors: [
+    { 
+      name: "Imampur Palli Mangal High School",
+      url: "https://ipmhs.vercel.app"
+    }
+  ],
   viewport: "width=device-width, initial-scale=1",
   robots: {
     index: true,
@@ -55,10 +58,10 @@ export const metadata: Metadata = {
     description:
       "অফিসিয়াল ওয়েবসাইট - Imampur Palli Mangal High School, কালিপুর বাজার, চাঁদপুর",
     url: "https://ipmhs.vercel.app",
-    siteName: "IPMHS",
+    siteName: "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়",
     images: [
       {
-        url: "https://ipmhs.vercel.app/images/og-image.png",
+        url: "https://ipmhs.vercel.app/ইমামপুর.png",
         width: 1200,
         height: 630,
         alt: "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়",
@@ -72,7 +75,15 @@ export const metadata: Metadata = {
     title: "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়",
     description:
       "অফিসিয়াল ওয়েবসাইট - Imampur Palli Mangal High School, কালিপুর বাজার, চাঁদপুর",
-    images: ["https://ipmhs.vercel.app/images/og-image.png"],
+    images: ["https://ipmhs.vercel.app/ইমামপুর.png"],
+  },
+  alternates: {
+    canonical:
+      "https://ipmhs.vercel.app",
+    types: {
+      "application/rss+xml":
+        "https://ipmhs.vercel.app/sitemap.xml",
+    },
   },
 };
 

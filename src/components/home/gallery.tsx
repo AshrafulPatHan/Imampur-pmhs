@@ -1,6 +1,6 @@
 import Image from "next/image";
 import miner from "@/assets/image/imner-clear.webp";
-import sir from "@/assets/image/sir.jpg";
+// import sir from "@/assets/image/sir.jpg";
 import min from "@/assets/image/miner.webp";
 import book from "@/assets/image/book.jpg";
 
@@ -9,22 +9,30 @@ export default function Gallery() {
         <div className="max-width flex flex-col items-center mt-primary mx-auto">
             <div>
                 <div className="bg-gradient-to-bl from-amber-400 to-blue-600 bg-clip-text text-transparent mb-10 ">
-                    <h1 className="text-header text-center">
+                    <h2 className="text-header text-center">
                         ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়
-                    </h1>
+                    </h2>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-4">
                     {/* big image */}
                     <div className="relative w-full lg:w-[65%] xl:w-[530px] h-auto lg:h-[510px] rounded-2xl overflow-hidden group">
-                        <Image
+                        {/* <Image
                             src={sir}
                             alt="Imampur Palli Mangal High School"
                             className="object-cover rounded-2xl w-full h-full transition-transform duration-500 group-hover:scale-110"
+                        /> */}
+                        <video
+                            src="https://ashraful332.github.io/rr/video/video.webm"
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            className="w-full h-full object-cover"
                         />
                         {/* overlay text */}
                         <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 translate-y-5 group-hover:translate-y-0 transition-all duration-500">
                             <p className="text-white text-lg font-bold">
-                                প্রধান শিক্ষক
+                                শিক্ষার্থী
                             </p>
                         </div>
                     </div>

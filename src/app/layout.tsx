@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Script from 'next/script';
 
 const geistSans = localFont({
   src: "../assets/fonts/GeistVF.woff",
@@ -15,9 +16,12 @@ const geistMono = localFont({
 
 // seo
 export const metadata: Metadata = {
-  title: "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয় | IPMHS",
+  title: "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয় | Imampur Palli Mangal High School",
   description:
     "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়, কালিপুর বাজার, মতলব উত্তর, চাঁদপুর। অফিসিয়াল ওয়েবসাইটে স্কুল সম্পর্কিত তথ্য, নোটিশ, রেজাল্ট এবং অন্যান্য গুরুত্বপূর্ণ তথ্য পাওয়া যাবে।",
+  icons: {
+    icon: '/favicon.png',
+  },
   keywords: [
     "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়",
     "Imampur Palli Mangal High School",
@@ -29,11 +33,14 @@ export const metadata: Metadata = {
     "মতলব উত্তর স্কুল",
     "চাঁদপুর স্কুল",
     "চাঁদপুরের শ্রেষ্ঠ স্কুল",
-    "বাংলাদেশ উচ্চ বিদ্যালয়",
-    "স্কুল ভর্তি তথ্য",
-    "স্কুল ফলাফল",
+    "চাঁদপুরের উচ্চ বিদ্যালয়",
   ],
-  authors: [{ name: "Imampur Palli Mangal High School" }],
+  authors: [
+    { 
+      name: "Imampur Palli Mangal High School",
+      url: "https://ipmhs.vercel.app"
+    }
+  ],
   viewport: "width=device-width, initial-scale=1",
   robots: {
     index: true,
@@ -51,10 +58,10 @@ export const metadata: Metadata = {
     description:
       "অফিসিয়াল ওয়েবসাইট - Imampur Palli Mangal High School, কালিপুর বাজার, চাঁদপুর",
     url: "https://ipmhs.vercel.app",
-    siteName: "IPMHS",
+    siteName: "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়",
     images: [
       {
-        url: "https://ipmhs.vercel.app/images/og-image.png",
+        url: "https://ipmhs.vercel.app/ইমামপুর.png",
         width: 1200,
         height: 630,
         alt: "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়",
@@ -68,7 +75,15 @@ export const metadata: Metadata = {
     title: "ইমামপুর পল্লী মঙ্গল উচ্চ বিদ্যালয়",
     description:
       "অফিসিয়াল ওয়েবসাইট - Imampur Palli Mangal High School, কালিপুর বাজার, চাঁদপুর",
-    images: ["https://ipmhs.vercel.app/images/og-image.png"],
+    images: ["https://ipmhs.vercel.app/ইমামপুর.png"],
+  },
+  alternates: {
+    canonical:
+      "https://ipmhs.vercel.app",
+    types: {
+      "application/rss+xml":
+        "https://ipmhs.vercel.app/sitemap.xml",
+    },
   },
 };
 
@@ -79,6 +94,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Google Analytics */}
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-6YNCDB07NY`}
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6YNCDB07NY');
+          `}
+        </Script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
